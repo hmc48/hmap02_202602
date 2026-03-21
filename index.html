@@ -272,6 +272,8 @@ button.menu-sub-btn { flex: 1; padding: 8px; font-size: 11px; cursor: pointer; }
         );
 
         if (!input) return;
+        
+        lastJumpInput = input;
 
         // 既存マーカー削除
         if (inputMarker) {
